@@ -18,8 +18,6 @@
 		2CEB3EC01602563600548120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEB3EBF1602563600548120 /* UIKit.framework */; };
 		AE6A63F823278E1E00A5808B /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A63EF23278E1E00A5808B /* WebViewJavascriptBridge.framework */; };
 		AE6A63FF23278E1E00A5808B /* WebViewJavascriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A63FE23278E1E00A5808B /* WebViewJavascriptTests.m */; };
-		AE6A646D2327957B00A5808B /* WebViewJavascript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A646C2327957A00A5808B /* WebViewJavascript.framework */; };
-		AE6A646E2327957B00A5808B /* WebViewJavascript.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A646C2327957A00A5808B /* WebViewJavascript.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE6A64792327970400A5808B /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A64712327970300A5808B /* WebViewJavascriptBridgeBase.m */; };
 		AE6A647A2327970400A5808B /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A64722327970300A5808B /* WKWebViewJavascriptBridge.m */; };
 		AE6A647B2327970400A5808B /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A64732327970300A5808B /* WebViewJavascriptBridge.m */; };
@@ -28,6 +26,7 @@
 		AE6A647E2327970400A5808B /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A64762327970300A5808B /* WebViewJavascriptBridge_JS.m */; };
 		AE6A647F2327970400A5808B /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6A64772327970300A5808B /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE6A64802327970400A5808B /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6A64782327970300A5808B /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6A64842327A4C000A5808B /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A64832327A4BF00A5808B /* WebViewJavascriptBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE6A646E2327957B00A5808B /* WebViewJavascript.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +82,6 @@
 		AE6A63F723278E1E00A5808B /* WebViewJavascriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewJavascriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6A63FE23278E1E00A5808B /* WebViewJavascriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptTests.m; sourceTree = "<group>"; };
 		AE6A640023278E1E00A5808B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6A646C2327957A00A5808B /* WebViewJavascript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebViewJavascript.framework; path = Carthage/Build/iOS/WebViewJavascript.framework; sourceTree = "<group>"; };
 		AE6A64712327970300A5808B /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		AE6A64722327970300A5808B /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		AE6A64732327970300A5808B /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
@@ -93,6 +90,7 @@
 		AE6A64762327970300A5808B /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		AE6A64772327970300A5808B /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		AE6A64782327970300A5808B /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		AE6A64832327A4BF00A5808B /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebViewJavascriptBridge.framework; path = Carthage/Build/iOS/WebViewJavascriptBridge.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6A646D2327957B00A5808B /* WebViewJavascript.framework in Frameworks */,
 				0E4E9D4C1A101E0B00043087 /* WebKit.framework in Frameworks */,
+				AE6A64842327A4C000A5808B /* WebViewJavascriptBridge.framework in Frameworks */,
 				2CEB3EC01602563600548120 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +125,7 @@
 		2CA045B617117439006DEE8B /* ExampleApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AE6A64832327A4BF00A5808B /* WebViewJavascriptBridge.framework */,
 				2CA0465B1711AC8D006DEE8B /* ExampleApp.html */,
 				2CA045BC17117439006DEE8B /* ExampleAppDelegate.h */,
 				2CA045BD17117439006DEE8B /* ExampleAppDelegate.m */,
@@ -153,7 +152,6 @@
 		2CEB3EB01602563600548120 = {
 			isa = PBXGroup;
 			children = (
-				AE6A646C2327957A00A5808B /* WebViewJavascript.framework */,
 				2CAB869A1727684300BD9ED1 /* Default-568h@2x.png */,
 				2CA045B617117439006DEE8B /* ExampleApp-iOS */,
 				AE6A63F023278E1E00A5808B /* WebViewJavascript */,

@@ -1,41 +1,8 @@
 BCSymbolMap Version: 2.0
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m
+/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps/WebViewJavascript/WebViewJavascript/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m
 /Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps
 WebViewJavascriptBridge_js
-+[WebViewJavascriptBridge enableLogging]
-+[WebViewJavascriptBridge setLogMaxLength:]
-+[WebViewJavascriptBridge bridgeForWebView:]
-+[WebViewJavascriptBridge bridge:]
--[WebViewJavascriptBridge setWebViewDelegate:]
--[WebViewJavascriptBridge send:]
--[WebViewJavascriptBridge send:responseCallback:]
--[WebViewJavascriptBridge callHandler:]
--[WebViewJavascriptBridge callHandler:data:]
--[WebViewJavascriptBridge callHandler:data:responseCallback:]
--[WebViewJavascriptBridge registerHandler:handler:]
--[WebViewJavascriptBridge removeHandler:]
--[WebViewJavascriptBridge disableJavscriptAlertBoxSafetyTimeout]
--[WebViewJavascriptBridge dealloc]
--[WebViewJavascriptBridge _evaluateJavascript:]
--[WebViewJavascriptBridge _platformSpecificSetup:]
--[WebViewJavascriptBridge _platformSpecificDealloc]
--[WebViewJavascriptBridge webViewDidFinishLoad:]
--[WebViewJavascriptBridge webView:didFailLoadWithError:]
--[WebViewJavascriptBridge webView:shouldStartLoadWithRequest:navigationType:]
--[WebViewJavascriptBridge webViewDidStartLoad:]
--[WebViewJavascriptBridge .cxx_destruct]
-_OBJC_IVAR_$_WebViewJavascriptBridge._webViewDelegate
-_OBJC_IVAR_$_WebViewJavascriptBridge._base
-_OBJC_IVAR_$_WebViewJavascriptBridge._webView
-l_OBJC_PROTOCOL_$_NSObject
-l_OBJC_LABEL_PROTOCOL_$_NSObject
-l_OBJC_PROTOCOL_$_UIWebViewDelegate
-l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
-l_OBJC_PROTOCOL_$_WebViewJavascriptBridgeBaseDelegate
-l_OBJC_LABEL_PROTOCOL_$_WebViewJavascriptBridgeBaseDelegate
-_OBJC_IVAR_$_WebViewJavascriptBridge._uniqueId
-/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.m
 +[WebViewJavascriptBridgeBase enableLogging]
 +[WebViewJavascriptBridgeBase setLogMaxLength:]
 -[WebViewJavascriptBridgeBase init]
@@ -87,13 +54,46 @@ _OBJC_IVAR_$_WebViewJavascriptBridgeBase._startupMessageQueue
 _OBJC_IVAR_$_WebViewJavascriptBridgeBase._messageHandlers
 _OBJC_IVAR_$_WebViewJavascriptBridgeBase._messageHandler
 _OBJC_IVAR_$_WebViewJavascriptBridgeBase._webViewDelegate
-/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m
-/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h
+/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps/WebViewJavascript/WebViewJavascript/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m
+/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps/WebViewJavascript/WebViewJavascript/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h
 __48-[WebViewJavascriptBridgeBase _dispatchMessage:]_block_invoke
 __49-[WebViewJavascriptBridgeBase flushMessageQueue:]_block_invoke.64
 __destroy_helper_block_e4_20s24s
 __copy_helper_block_e4_20s24s
 __49-[WebViewJavascriptBridgeBase flushMessageQueue:]_block_invoke
++[WebViewJavascriptBridge enableLogging]
++[WebViewJavascriptBridge setLogMaxLength:]
++[WebViewJavascriptBridge bridgeForWebView:]
++[WebViewJavascriptBridge bridge:]
+-[WebViewJavascriptBridge setWebViewDelegate:]
+-[WebViewJavascriptBridge send:]
+-[WebViewJavascriptBridge send:responseCallback:]
+-[WebViewJavascriptBridge callHandler:]
+-[WebViewJavascriptBridge callHandler:data:]
+-[WebViewJavascriptBridge callHandler:data:responseCallback:]
+-[WebViewJavascriptBridge registerHandler:handler:]
+-[WebViewJavascriptBridge removeHandler:]
+-[WebViewJavascriptBridge disableJavscriptAlertBoxSafetyTimeout]
+-[WebViewJavascriptBridge dealloc]
+-[WebViewJavascriptBridge _evaluateJavascript:]
+-[WebViewJavascriptBridge _platformSpecificSetup:]
+-[WebViewJavascriptBridge _platformSpecificDealloc]
+-[WebViewJavascriptBridge webViewDidFinishLoad:]
+-[WebViewJavascriptBridge webView:didFailLoadWithError:]
+-[WebViewJavascriptBridge webView:shouldStartLoadWithRequest:navigationType:]
+-[WebViewJavascriptBridge webViewDidStartLoad:]
+-[WebViewJavascriptBridge .cxx_destruct]
+_OBJC_IVAR_$_WebViewJavascriptBridge._webViewDelegate
+_OBJC_IVAR_$_WebViewJavascriptBridge._base
+_OBJC_IVAR_$_WebViewJavascriptBridge._webView
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_PROTOCOL_$_WebViewJavascriptBridgeBaseDelegate
+l_OBJC_LABEL_PROTOCOL_$_WebViewJavascriptBridgeBaseDelegate
+_OBJC_IVAR_$_WebViewJavascriptBridge._uniqueId
+/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps/WebViewJavascript/WebViewJavascript/WebViewJavascriptBridge/WebViewJavascriptBridge.m
 +[WKWebViewJavascriptBridge enableLogging]
 +[WKWebViewJavascriptBridge bridgeForWebView:]
 -[WKWebViewJavascriptBridge send:]
@@ -128,11 +128,11 @@ ___block_descriptor_24_e4_20s_e29_v12@?0@"NSString"4@"NSError"8l
 l_OBJC_PROTOCOL_$_WKNavigationDelegate
 l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
 _OBJC_IVAR_$_WKWebViewJavascriptBridge._uniqueId
-/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/WebViewJavascriptBridge/WKWebViewJavascriptBridge.m
+/Users/genglizhao/Documents/GitHub/WebViewJavascriptBridge/Example Apps/WebViewJavascript/WebViewJavascript/WebViewJavascriptBridge/WKWebViewJavascriptBridge.m
 __destroy_helper_block_e4_20s
 __copy_helper_block_e4_20s
 __48-[WKWebViewJavascriptBridge WKFlushMessageQueue]_block_invoke
-/Users/genglizhao/Library/Developer/Xcode/DerivedData/ExampleApp-iOS-ewluvyrwdkbexccrcucgxggwizgh/Build/Intermediates.noindex/ArchiveIntermediates/WebViewJavascript/IntermediateBuildFilesPath/ExampleApp-iOS.build/Release-iphoneos/WebViewJavascript.build/DerivedSources/WebViewJavascript_vers.c
+/Users/genglizhao/Library/Developer/Xcode/DerivedData/ExampleApp-iOS-ewluvyrwdkbexccrcucgxggwizgh/Build/Intermediates.noindex/ArchiveIntermediates/WebViewJavascript/IntermediateBuildFilesPath/ExampleApp-iOS.build/Release-iphoneos/WebViewJavascript.build/DerivedSources/WebViewJavascriptBridge_vers.c
 __ZL15__ARCLite__loadv
 __ZL30add_image_hook_autoreleasepoolPK11mach_headerl
 __ZL34__arclite_objc_autoreleasePoolPushv

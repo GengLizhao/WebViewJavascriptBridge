@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "903ec069db8fdd58bc7c574d78a76fdf72b99966",
+  "commitish" : "6.0.4",
   "iOS" : [
     {
-      "name" : "WebViewJavascript",
-      "hash" : "7cc54a2c728dee6b68128d257f8614e5a57d6b6e452971449e47653ab97c2ed8"
+      "name" : "WebViewJavascriptBridge",
+      "hash" : "2c529d92004c6e18e4b0cb09ce98ffac8687d35069121475dabbb4dc47ac2269"
     }
   ]
 }
