@@ -16,9 +16,8 @@
 		2CA0465C1711AC8E006DEE8B /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CA0465B1711AC8D006DEE8B /* ExampleApp.html */; };
 		2CAB869B1727684300BD9ED1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB869A1727684300BD9ED1 /* Default-568h@2x.png */; };
 		2CEB3EC01602563600548120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEB3EBF1602563600548120 /* UIKit.framework */; };
-		AE6A63F823278E1E00A5808B /* WebViewJavascript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A63EF23278E1E00A5808B /* WebViewJavascript.framework */; };
+		AE6A63F823278E1E00A5808B /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A63EF23278E1E00A5808B /* WebViewJavascriptBridge.framework */; };
 		AE6A63FF23278E1E00A5808B /* WebViewJavascriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A63FE23278E1E00A5808B /* WebViewJavascriptTests.m */; };
-		AE6A640123278E1E00A5808B /* WebViewJavascript.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6A63F123278E1E00A5808B /* WebViewJavascript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE6A646D2327957B00A5808B /* WebViewJavascript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A646C2327957A00A5808B /* WebViewJavascript.framework */; };
 		AE6A646E2327957B00A5808B /* WebViewJavascript.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A646C2327957A00A5808B /* WebViewJavascript.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE6A64792327970400A5808B /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A64712327970300A5808B /* WebViewJavascriptBridgeBase.m */; };
@@ -80,8 +79,7 @@
 		2CEB3EBF1602563600548120 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CEB3EC11602563600548120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CEB3EC31602563600548120 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AE6A63EF23278E1E00A5808B /* WebViewJavascript.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascript.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE6A63F123278E1E00A5808B /* WebViewJavascript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewJavascript.h; sourceTree = "<group>"; };
+		AE6A63EF23278E1E00A5808B /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6A63F223278E1E00A5808B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6A63F723278E1E00A5808B /* WebViewJavascriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewJavascriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6A63FE23278E1E00A5808B /* WebViewJavascriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptTests.m; sourceTree = "<group>"; };
@@ -119,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6A63F823278E1E00A5808B /* WebViewJavascript.framework in Frameworks */,
+				AE6A63F823278E1E00A5808B /* WebViewJavascriptBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				2CEB3EBB1602563600548120 /* ExampleApp-iOS.app */,
-				AE6A63EF23278E1E00A5808B /* WebViewJavascript.framework */,
+				AE6A63EF23278E1E00A5808B /* WebViewJavascriptBridge.framework */,
 				AE6A63F723278E1E00A5808B /* WebViewJavascriptTests.xctest */,
 			);
 			name = Products;
@@ -198,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				AE6A64702327970300A5808B /* WebViewJavascriptBridge */,
-				AE6A63F123278E1E00A5808B /* WebViewJavascript.h */,
 				AE6A63F223278E1E00A5808B /* Info.plist */,
 			);
 			path = WebViewJavascript;
@@ -238,7 +235,6 @@
 			files = (
 				AE6A647F2327970400A5808B /* WebViewJavascriptBridge.h in Headers */,
 				AE6A64802327970400A5808B /* WKWebViewJavascriptBridge.h in Headers */,
-				AE6A640123278E1E00A5808B /* WebViewJavascript.h in Headers */,
 				AE6A647D2327970400A5808B /* WebViewJavascriptBridgeBase.h in Headers */,
 				AE6A647C2327970400A5808B /* WebViewJavascriptBridge_JS.h in Headers */,
 			);
@@ -280,7 +276,7 @@
 			);
 			name = WebViewJavascript;
 			productName = WebViewJavascript;
-			productReference = AE6A63EF23278E1E00A5808B /* WebViewJavascript.framework */;
+			productReference = AE6A63EF23278E1E00A5808B /* WebViewJavascriptBridge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AE6A63F623278E1E00A5808B /* WebViewJavascriptTests */ = {
@@ -586,7 +582,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.WebViewJavascript;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -634,7 +631,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.WebViewJavascript;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
