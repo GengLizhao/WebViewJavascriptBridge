@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "903ec069db8fdd58bc7c574d78a76fdf72b99966",
+  "iOS" : [
+    {
+      "name" : "WebViewJavascript",
+      "hash" : "7cc54a2c728dee6b68128d257f8614e5a57d6b6e452971449e47653ab97c2ed8"
+    }
+  ]
+}

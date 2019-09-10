@@ -1,0 +1,6 @@
+framework module WebViewJavascript {
+  umbrella header "WebViewJavascript.h"
+
+  export *
+  module * { export * }
+}

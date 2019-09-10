@@ -7,7 +7,7 @@
 //
 
 #import "ExampleWKWebViewController.h"
-#import "WebViewJavascriptBridge.h"
+#import <WebViewJavascript/WebViewJavascriptBridge.h>
 
 @interface ExampleWKWebViewController ()
 
